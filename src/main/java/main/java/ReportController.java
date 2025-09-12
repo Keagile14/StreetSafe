@@ -24,7 +24,7 @@ public class ReportController {
         return reportRepository.findAll();
     }
 
-    @PostMapping("/{id}/status")
+    @PutMapping("/{id}/status")
 
     public Report updateStatus(@PathVariable Long id, @RequestParam String status) {
 
