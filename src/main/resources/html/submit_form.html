@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resident side form</title>
+</head>
+<body>
+    <form id="reportForm" method="post">
+
+        <label for="crimeType"> Choose an option </label>
+
+        <select id="crimeType" name="crimeOption">
+            <option value="assault">Assault</option>
+            <option value="murder">Murder</option>
+            <option value="robbery">Robbery</option>
+            <option value="sexualAssault">Sexual Assault / Rape</option>
+            <option value="domesticViolence">Domestic Violence</option>
+            <option value="burglary">Burglary / Break-in</option>
+            <option value="theft">Theft / Larceny</option>
+            <option value="softlifting">Shoplifting</option>
+            <option value="drugPossession">Drug Possession</option>
+            <option value="fraud/scams"> Fraud/Scams</option>
+            <option value="identityTheft">Identity Theft</option>
+            <option value="other">Other</option>
+        </select>
+
+        <br><br>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" placeholder="Enter location">
+
+
+
+        <input type="text" id="otherInput" placeholder="Specify other crime" style="display: none; margin-left: 10px;">
+        <br><br>
+
+        <label for="description">Description:</label><br>
+        <textarea id="description" placeholder="Provide more details..." rows="4" cols="50"></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+
+
+    </form>
+    <script src="js/submit_form.js"></script>
+</body>
+</html>

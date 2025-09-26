@@ -6,6 +6,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/reports")
+@CrossOrigin(origins = "*")
 public class ReportController {
 
     private final ReportRepository reportRepository;

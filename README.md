@@ -31,3 +31,15 @@ Notifications via WhatsApp/SMS - Analytics and crime trends - Media uploads for 
 - 5. Open `dashboard.html` for CPF/SAPS dashboard 
 ## Contribution Contributions are welcome! Please open an issue or submit a pull request. 
 ## License This project is licensed under the MIT License. 
+
+git clone <repo-url>
+cd streetsafe
+
+mvn spring-boot:run
+
+H2 Database Access
+
+Open: http://localhost:8080/h2-console
+jdbc:h2:mem:streetsafe
+Username: sa
+Password: (leave blank)

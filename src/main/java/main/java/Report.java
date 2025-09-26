@@ -20,7 +20,7 @@ public class Report {
     @Column(nullable = false)
     private String description;
 
-    @Column(nullable = false)
+    @Column(nullable = true)
     private String location;
 
     @Column(nullable = false)
